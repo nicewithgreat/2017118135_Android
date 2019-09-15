@@ -38,7 +38,8 @@ buildscript {
 ```
 将maven url配置为国内可访问的（如果已翻墙可以配置为https://maven.google.com）  
   
-2. -Setting->Gradle->Android Studio : 勾选 Enable embedded Maven repository  
+2. -Setting->Gradle->Android Studio : 
+  - [x] Enable embedded Maven repository  
 ![my](https://github.com/nicewithgreat/2017118135_Android/blob/master/img/Enable%20embedded%20Maven%20repository.png)
 
 ****
