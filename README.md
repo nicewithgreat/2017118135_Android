@@ -9,7 +9,8 @@ thie repository about Android
  
 
 -问题二
-ERROR: Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/3.4.2/gradle-3.4.2.pom'. Received status code 400 from server: Bad Request
+ERROR: Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/3.4.2/gradle-3.4.2.pom'. 
+Received status code 400 from server: Bad Request
 Enable Gradle 'offline mode' and sync project
 
 -解决方法
@@ -35,7 +36,8 @@ buildscript {
 2. -Setting->Gradle->Android Studio : 勾选 Enable embedded Maven repository
  
 -问题三
-Could not GET 'https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.0.2/appcompat-1.0.2.pom'. Received status code 400 from server: Bad Request
+Could not GET 'https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.0.2/appcompat-1.0.2.pom'. 
+Received status code 400 from server: Bad Request
 Enable Gradle 'offline mode' and sync project
 -解决方法
 在gradle.properties文件中将
