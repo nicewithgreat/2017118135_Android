@@ -2,12 +2,13 @@
 thie repository about Android
 ****
 ### -问题1：  
-_当我第一次创建空白的Android工程时候，  
-提示我ERROR: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 400 Bad Request"_
+_当我第一次创建空白的Android工程时候，提示我  
+ERROR: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 400 Bad Request"_
   
 #### -解决方法：  
 -Setting->Gradle->Gradle home  
-   
+![my](https://github.com/nicewithgreat/2017118135_Android/blob/master/img/Gradle%20home.png)
+
  **** 
 ### -问题二  
 _ERROR: Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/3.4.2/gradle-3.4.2.pom'. Received status code 400 from server: Bad Request  
@@ -38,6 +39,7 @@ buildscript {
 将maven url配置为国内可访问的（如果已翻墙可以配置为https://maven.google.com）  
   
 2. -Setting->Gradle->Android Studio : 勾选 Enable embedded Maven repository  
+![my](https://github.com/nicewithgreat/2017118135_Android/blob/master/img/Enable%20embedded%20Maven%20repository.png)
 
 ****
 ### -问题三  
