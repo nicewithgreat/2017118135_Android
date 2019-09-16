@@ -1,6 +1,14 @@
 # 2017118135_Android  
 thie repository about Android
-[回到顶部](#question5)
+>JUMP
+>>[问题1](#question1) | 
+>>[问题2](#question2) | 
+>>[问题3](#question3) | 
+>>[问题4](#question4) | 
+>>[问题5](#question5)  
+>>[相关链接](#RelatedLink)
+
+
 ****
 ### <span id="question1">-问题一</span>
 _当我第一次创建空白的Android工程时候，提示我  
@@ -11,7 +19,7 @@ ERROR: Unable to tunnel through proxy. Proxy returns "HTTP/1.1 400 Bad Request"_
 ![my](https://github.com/nicewithgreat/2017118135_Android/blob/master/img/Gradle%20home.png)
 
 **** 
-### -问题二  
+### <span id="question2">-问题二</span> 
 _ERROR: Could not GET 'https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/3.4.2/gradle-3.4.2.pom'. Received status code 400 from server: Bad Request  
 Enable Gradle 'offline mode' and sync project_
   
@@ -44,7 +52,7 @@ buildscript {
 ![my](https://github.com/nicewithgreat/2017118135_Android/blob/master/img/Enable%20embedded%20Maven%20repository.png)
 
 ****
-### -问题三  
+### <span id="question3">-问题三</span>
 _Could not GET 'https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.0.2/appcompat-1.0.2.pom'. Received status code 400 from server: Bad Request  
 Enable Gradle 'offline mode' and sync project_
   
@@ -65,7 +73,7 @@ systemProp.http.proxyHost=mirrors.neusoft.edu.cn
 ```
 
 ****
-### -问题四
+### <span id="question4">-问题四</span>
 _创建虚拟设备时候，出现的问题_
 ![my](https://github.com/nicewithgreat/2017118135_Android/blob/master/img/No%20System%20images%20available.png)
  
@@ -86,5 +94,5 @@ _0:17	Emulator: Process finished with exit code 1_
 3.	修改你的avd配置文件的路径，打开avd文件夹，找到.ini文件，用记事本打开，将路径修改为你的文件路径
 
 ****
-### -相关链接
+### <span id="RelatedLink">-相关链接</span>
 _android dev 概念 :_ https://www.cnblogs.com/kidsitcn/p/10221028.html
