@@ -5,7 +5,8 @@ thie repository about Android
 >>[问题2](#question2) | 
 >>[问题3](#question3) | 
 >>[问题4](#question4) | 
->>[问题5](#question5)  
+>>[问题5](#question5) |
+>>[问题6](#question6)  
 >>[相关链接](#RelatedLink)
 
 
@@ -94,5 +95,59 @@ _0:17	Emulator: Process finished with exit code 1_
 3.	修改你的avd配置文件的路径，打开avd文件夹，找到.ini文件，用记事本打开，将路径修改为你的文件路径
 
 ****
+
+### <span id="question6">-问题六</span>
+*加载HelloWorld项目出现
+Failed to find Build Tools revision 24.0.2
+Install Build Tools 24.0.2 and sync project
+Upgrade plugin to version 3.4.2 and sync project_
+
+#### -解决方法
+项目的指定的版本不是android studio 已经存在的就会出现这个问题  
+1.单击文字中的Install Build Tools 24.0.2 and sync project  
+2.在build.gradle文件中
+```
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+```
+改成
+```
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.2'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+```
+****
+
 ### <span id="RelatedLink">-相关链接</span>
 _android dev 概念 :_ https://www.cnblogs.com/kidsitcn/p/10221028.html
