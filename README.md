@@ -147,6 +147,15 @@ allprojects {
     }
 }
 ```
+3.在gradle-wrapper.properties文件中
+```
+distributionUrl=https\://services.gradle.org/distributions/gradle-2.14.1-all.zip
+```
+改成
+```
+distributionUrl=https\://services.gradle.org/distributions/gradle-5.1.1-all.zip
+```
+
 ****
 
 ### <span id="RelatedLink">-相关链接</span>
