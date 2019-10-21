@@ -6,7 +6,7 @@
 ![my](https://github.com/nicewithgreat/2017118135_Android/blob/master/img/hiddenIntenthome.png)
 ****
 单击browers后  
-![my](https://github.com/nicewithgreat/2017118135_Android/blob/master/img/page2.png)
+![my](https://github.com/nicewithgreat/2017118135_Android/blob/master/img/browers.png)
 ****
 单击telephone后  
 ![my](https://github.com/nicewithgreat/2017118135_Android/blob/master/img/tel.png)
