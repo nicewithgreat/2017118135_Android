@@ -1,12 +1,15 @@
 # 2017118135_Android  
-页面切换运行的效果
+调用外部应用的效果
 
 ****
-初始状态  
-![my](https://github.com/nicewithgreat/2017118135_Android/blob/master/img/page1.png)
+主页  
+![my](https://github.com/nicewithgreat/2017118135_Android/blob/master/img/hiddenIntenthome.png)
 ****
-单击bottom1后  
+单击browers后  
 ![my](https://github.com/nicewithgreat/2017118135_Android/blob/master/img/page2.png)
 ****
-单击bottom2后  
-![my](https://github.com/nicewithgreat/2017118135_Android/blob/master/img/page1.png)
+单击telephone后  
+![my](https://github.com/nicewithgreat/2017118135_Android/blob/master/img/tel.png)
+****
+单击map后  
+![my](https://github.com/nicewithgreat/2017118135_Android/blob/master/img/map.png)
